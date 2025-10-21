@@ -29,11 +29,3 @@ Para iniciar o servidor de desenvolvimento, execute:
 ng serve
 Depois, acesse http://localhost:4200/ no navegador.
 
-
-## 🔐 Usuários e Senhas
-
-| Usuário | Senha |
-|---------|-------|
-| admin   | 1234  |
-| ana     | 1234  |
-| luiz    | 1234  |
