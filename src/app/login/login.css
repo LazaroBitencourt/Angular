@@ -1,0 +1,35 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+#conteudo{
+   display:flex; flex-wrap: wrap; width:80%; float:left;
+   justify-content: center; align-items: center;
+}
+label, button{
+   margin:10px; width: 100px; display: inline-block;
+}
+#mensagem{
+   color:red; width:98%; background-color:lightyellow;
+   padding:5px; border:red 1px dotted; font-weight: bold;
+}
+input{
+   background-color: lightblue;
+   width: 250px;
+   height: 25px;
+   outline: none;
+   border: none;
+}
+button {
+  background-color: red;
+  border: none;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(228, 53, 53);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
